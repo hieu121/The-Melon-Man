@@ -62,6 +62,7 @@ game.keydown = function (event) {
 		case 32:
 			game.player.jump()
 			break
+			
 	}
 		game.pressedKeys[event.keyCode] = true
 	}
