@@ -49,9 +49,9 @@ game.redraw = function () {
 
 	game.context.fillRect(0, 0, game.canvas.width, game.canvas.height)
 
-	if (game.backgrounds['trees'].loaded) {
-		game.context.drawImage(game.backgrounds['trees'].image, 0, game.canvas.height / 2 - game.player.y / 10, 332, 180)
-		game.context.drawImage(game.backgrounds['trees'].image, 332, game.canvas.height / 2 - game.player.y / 10, 332, 180)
+	if (game.backgrounds['bird'].loaded) {
+		game.context.drawImage(game.backgrounds['bird'].image, 0, game.canvas.height / 2 - game.player.y / 10, 236, 180)
+		game.context.drawImage(game.backgrounds['bird'].image, 332, game.canvas.height / 2 - game.player.y / 10, 332, 180)
 	}
 
 	// List nearest structures
