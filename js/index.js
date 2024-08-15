@@ -10,7 +10,7 @@ var game = {
 				image: new Image(),
 				loaded: false
 			},
-			'trees': {
+			'bird': {
 				image: new Image(),
 				loaded: false
 			}
@@ -32,7 +32,7 @@ var game = {
 		this.context.imageSmoothingEnabled = false
 
     this.backgrounds['sky'].image.src = "background.png"
-		this.backgrounds['trees'].image.src = "trees.png"
+		this.backgrounds['bird'].image.src = "bird.png"
 
 		for (var key in this.backgrounds) {
 			this.backgrounds[key].image.onload = function (currentKey) {
